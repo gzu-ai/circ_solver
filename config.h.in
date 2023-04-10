@@ -1,0 +1,24 @@
+#include "core/CluaseSet.h"
+
+#ifndef WRAPPER_SETTING
+#define WRAPPER_SETTING
+#include "@WRAPPER_INCLUDE@"
+typedef  @WRAPPER_CLASS@ Wrapper;
+#endif
+
+
+#ifndef APP_NAME
+#define APP_NAME "@APP_NAME@"
+#endif
+
+#ifndef APP_VERSION
+#define APP_VERSION "@APP_VERSION@"
+#endif
+
+#ifndef SAT_SOLVER
+#define SAT_SOLVER "@SAT_SOLVER@"
+#endif
+
+#ifndef SAT_SOLVER_VERSION
+#define SAT_SOLVER_VERSION "@SAT_SOLVER_VERSION@"
+#endif
